@@ -1,0 +1,100 @@
+.fundo-login{
+    font-family: 'Oswald', sans-serif;
+    align-content: center;
+    background: linear-gradient(100deg, #1988f7 0%, #f71988 115%);
+}
+.content{
+    font-family:'Oswald', sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-login{
+    display: flex;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-login{
+    display: flex;
+    margin-top: 67px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 635px;
+    width: 454px;
+    background: #B51CB5;
+    border: solid 2px black;
+    border-radius: 21px;
+    box-shadow: 2px 2px 8px 4px #0000005e;
+    align-content: center;
+}
+.img-logo{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 71px;
+    height: 144px;
+    width: 144px;
+    border-radius: 72px;
+    background: #e0dddd;
+
+}
+.input-login{
+    display: flex;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 31px;
+    height: 34px;
+    width: 244px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 600;
+    color: #808080;
+    align-items: center;
+    transition: width 0.3s, height 0.3s;
+}
+.input-login:focus{
+    border-bottom: solid 4px #1988f7;
+    height: 38px;
+    width: 248px;
+
+}
+.btn-login{
+    display: flex;
+    height: 57px;
+    width: 277px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 79px;
+    background: #000000;
+    border-radius: 9px;
+    outline: none;
+    box-shadow: 10px 8px 13px 0px #0000004d;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+.btn-login:hover{
+    background: #b4b4b4;
+    color: #000000;
+    cursor: pointer;
+}
+.texto-login{
+    text-align: center;
+}
+.texto-rodape{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+    font-size: 20px;
+    align-items: center;
+    color:#ffffff;
+    justify-content: center;
+    font-weight: 700;
+}
