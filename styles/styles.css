@@ -23,7 +23,8 @@
     height: 635px;
     width: 454px;
     background: #B51CB5;
-    border: solid 2px black;
+    opacity: 0.75;
+    border: solid 1px black;
     border-radius: 21px;
     box-shadow: 2px 2px 8px 4px #0000005e;
     align-content: center;
